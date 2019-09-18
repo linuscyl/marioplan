@@ -16,7 +16,7 @@ function ProjectList({ projects }) {
         return (
           <Link to={'/project/' + project.id} key={project.id} >
             <ProjectSummary project={project} key={project.id} />
-            {console.log('project.id is: ', project.id)}
+            {/* {console.log('project.id is: ', project.id)} */}
           </Link>
         )
       })}
